@@ -1,0 +1,78 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden !important;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../../img/lacsa.jpg");
+  background-size: cover;
+
+  .top {
+    .wrapper {
+      padding: 20px 50px !important;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .logo {
+        height: 40px;
+      }
+    }
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f3f3f3;
+
+    form {
+      width: 300px;
+      height: 300px;
+      padding: 30px !important;
+      border-radius: 6px;
+      background: var(--main-color);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      span {
+        color: lightgray;
+      }
+      small {
+        color: lightgray;
+      }
+
+      b {
+        color: #f3f3f3;
+      }
+    }
+    input {
+      padding: 1rem !important;
+      border: none;
+      overflow: hidden;
+    }
+    button {
+      height: 2.6rem;
+      background: crimson;
+      color: #f3f3f3;
+      font-size: 1.3rem;
+      font-weight: 600;
+      border: none;
+      overflow: hidden;
+      border-radius: 3px;
+      cursor: pointer;
+      margin: 0.6rem 0 !important;
+    }
+  }
+}
